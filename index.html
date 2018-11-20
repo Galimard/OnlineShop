@@ -8,32 +8,34 @@
 </head>
 <body>
     <header>
-        <div class="header-top template-width flex-wrap">
-            <div class="header-top__select flex-wrap">
-                <div class="header-top-select__wrap">
-                    <span>Language:</span>
-                    <select class="select" name="language" title="change-language">
-                        <option>English</option>
-                        <option>Русский</option>
-                    </select>
+        <div class="header-top template-width">
+            <div class="content flex-wrap">
+                <div class="header-top__select flex-wrap">
+                    <div class="header-select__wrap flex-wrap">
+                        <span class="header-select__text">Language:</span>
+                        <select class="select header__select" name="language" title="change-language">
+                            <option>English</option>
+                            <option>Русский</option>
+                        </select>
+                    </div>
+                    <div class="header-select__wrap flex-wrap">
+                        <span class="header-select__text">Currency:</span>
+                        <select class="select header__select" name="currency" title="change-currency">
+                            <option>USD</option>
+                            <option>RUB</option>
+                            <option>EUR</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="header-top-select__wrap">
-                    <span>Currency:</span>
-                    <select class="select" name="currency" title="change-currency">
-                        <option>USD</option>
-                        <option>RUB</option>
-                        <option>EUR</option>
-                    </select>
+                <div class="header-top__menu">
+                    <ul class="menu-list">
+                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Account</a></li>
+                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Wishlist</a></li>
+                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Checkout</a></li>
+                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Log in</a></li>
+                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Sign up</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="header-top__menu">
-                <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Wishlist</a></li>
-                    <li><a href="#">Checkout</a></li>
-                    <li><a href="#">Log in</a></li>
-                    <li><a href="#">Sign up</a></li>
-                </ul>
             </div>
         </div>
         <div class="header-bottom template-width">

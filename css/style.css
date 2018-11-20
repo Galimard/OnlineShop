@@ -40,6 +40,12 @@ html, body {
     margin: 0 auto;
 }
 
+.content {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
 .flex-wrap {
     display: flex;
     justify-content: space-between;
@@ -49,10 +55,11 @@ html, body {
 }
 
 .select {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 250px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
 }
 
 .menu-list {
@@ -67,7 +74,6 @@ html, body {
 
 .menu-list__link {
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 /*header-top, header-bottom, стили для хедера*/
@@ -75,12 +81,50 @@ html, body {
     background-color: #4cb1ca;
 }
 
-.header-top__select {
-    display: flex;
-    justify-content: space-between;
+.header-select__text {
+    color:  #bef3ff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 5px;
 }
 
+.header__select {
+    background-color: #4cb1ca;
+    color:  #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
+/*.header__select::after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 10px;*/
+    /*height: 6px;*/
+    /*background: url("../img/arrow-down.png") center no-repeat;*/
+/*}*/
+
+.top-menu__item {
+    padding: 0 10px;
+    border-right: 1px solid #ffffff;
+}
+
+.top-menu__item:last-child {
+    border: none;
+}
+
+.top-menu__link {
+    color: #ffffff;
+    padding: 10px 0;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.top-menu__link:hover {
+    color: #9ae2f4;
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type='checkbox'].visually-hidden,
