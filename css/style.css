@@ -76,7 +76,13 @@ html, body {
     text-decoration: none;
 }
 
-/*header-top, header-bottom, стили для хедера*/
+.button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/*header-top, стили для хедера*/
 .header-top {
     background-color: #4cb1ca;
 }
@@ -109,6 +115,7 @@ html, body {
 }
 
 .top-menu__item:last-child {
+    padding-right: 0;
     border: none;
 }
 
@@ -124,6 +131,112 @@ html, body {
 
 .top-menu__link:hover {
     color: #9ae2f4;
+}
+
+/*header-bottom, стили для хедера*/
+.header-bottom__wrap {
+    padding: 40px 0;
+}
+
+.logo__link {
+    color:  #656565;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bottom-menu__item {
+    padding: 0 10px;
+}
+
+.bottom-menu__link {
+    color:  #656565;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.bottom-menu__link:hover {
+    color: #9ae2f4;
+}
+
+.header-bottom__search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__form {
+    position: relative;
+}
+
+.header-form__search {
+    border: 1px solid #c6c6c6;
+    width: 174px;
+    padding: 5px;
+    outline: none;
+}
+
+.header-form__search::-webkit-input-placeholder,
+.header-form__search:-moz-placeholder,
+.header-form__search::-moz-placeholder,
+.header-form__search:-ms-input-placeholder {
+    color:  #b7b7b7;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header-form__search:focus::-webkit-input-placeholder,
+.header-form__search:focus:-moz-placeholder,
+.header-form__search:focus::-moz-placeholder,
+.header-form__search:focus:-ms-input-placeholder {
+    opacity:0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.header-form__btn {
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.header-form__btn:hover {
+    cursor: pointer;
+}
+
+.header-search__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search__icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+.header-search__tag {
+    background: url("../img/tags.png") center no-repeat;
+}
+
+.header-search__cart {
+    background: url("../img/cart.png") center no-repeat;
+}
+
+.header-search__text {
+    color:  #656565;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .visually-hidden:not(:focus):not(:active),
