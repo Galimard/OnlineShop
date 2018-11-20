@@ -36,9 +36,23 @@ html, body {
 }
 
 .template-width {
-    width: 100%;
-    max-width: 970px;
+    max-width: 1400px;
     margin: 0 auto;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
 }
 
 .menu-list {
@@ -55,6 +69,17 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/*header-top, header-bottom, стили для хедера*/
+.header-top {
+    background-color: #4cb1ca;
+}
+
+.header-top__select {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 .visually-hidden:not(:focus):not(:active),
