@@ -304,7 +304,16 @@ html, body {
     display: block;
     width: 67px;
     height: 67px;
-    background: url("../img/arrow-left-big.png") center no-repeat;
+    background: url("../img/css_sprites (1).png") no-repeat -10px -10px;
+    /*-webkit-transition: background-position 0.3s;*/
+    /*-moz-transition: background-position 0.3s;*/
+    /*-ms-transition: background-position 0.3s;*/
+    /*-o-transition: background-position 0.3s;*/
+    /*transition: background-position 0.3s;*/
+}
+
+.slider-arrow__prev:hover::after {
+    background: url("../img/css_sprites (1).png") no-repeat -97px -10px;
 }
 
 .slider-arrow__next::after {
@@ -312,7 +321,11 @@ html, body {
     display: block;
     width: 67px;
     height: 67px;
-    background: url("../img/arrow-right-big.png") center no-repeat;
+    background: url("../img/css_sprites (1).png") no-repeat -10px -97px;
+}
+
+.slider-arrow__next:hover::after {
+    background: url("../img/css_sprites (1).png") no-repeat -97px -97px;
 }
 
 .slider__item {
