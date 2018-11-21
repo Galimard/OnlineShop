@@ -278,6 +278,77 @@ html, body {
     text-transform: uppercase;
 }
 
+/*slider слайдер*/
+.slider {
+    position: relative;
+    width: 1400px;
+    height: 475px;
+}
+
+.slider-arrow__left {
+    position: absolute;
+    top: 204px;
+    left: 120px;
+    z-index: 100;
+}
+
+.slider-arrow__right {
+    position: absolute;
+    top: 204px;
+    right: 120px;
+    z-index: 100;
+}
+
+.slider-arrow__left::after {
+    content: '';
+    display: block;
+    width: 67px;
+    height: 67px;
+    background: url("../img/arrow-left-big.png") center no-repeat;
+}
+
+.slider-arrow__right::after {
+    content: '';
+    display: block;
+    width: 67px;
+    height: 67px;
+    background: url("../img/arrow-right-big.png") center no-repeat;
+}
+
+.slider__item {
+    position: relative;
+    display: none;
+}
+
+.slider__item--active {
+    display: block;
+}
+
+.slider-text__wrap {
+    position: absolute;
+    top: 190px;
+    left: 235px;
+}
+
+.slider-item__text {
+    margin: 0;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.slider-item__text:first-child {
+    max-width: 250px;
+    margin-bottom: 2px;
+}
+
+.slider-item__text-bold {
+    font-weight: 700;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type='checkbox'].visually-hidden,
 input[type='radio'].visually-hidden {
