@@ -166,13 +166,16 @@ html, body {
     color: #9ae2f4;
 }
 
-.header-bottom__search {
+.header-bottom__search,
+.header-search__icons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__form {
     position: relative;
+    margin-right: 15px;
 }
 
 .header-form__search {
@@ -182,18 +185,57 @@ html, body {
     outline: none;
 }
 
-.header-form__search::-webkit-input-placeholder,
-.header-form__search:-moz-placeholder,
-.header-form__search::-moz-placeholder,
+.header-form__search::-webkit-input-placeholder {
+    color:  #b7b7b7;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header-form__search:-moz-placeholder {
+    color:  #b7b7b7;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header-form__search::-moz-placeholder {
+    color:  #b7b7b7;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
 .header-form__search:-ms-input-placeholder {
     color:  #b7b7b7;
     font-size: 0.9rem;
     font-weight: 400;
 }
 
-.header-form__search:focus::-webkit-input-placeholder,
-.header-form__search:focus:-moz-placeholder,
-.header-form__search:focus::-moz-placeholder,
+.header-form__search:focus::-webkit-input-placeholder {
+    opacity:0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.header-form__search:focus:-moz-placeholder {
+    opacity:0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.header-form__search:focus::-moz-placeholder {
+    opacity:0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
 .header-form__search:focus:-ms-input-placeholder {
     opacity:0;
     -webkit-transition: opacity 0.5s;
@@ -213,11 +255,6 @@ html, body {
     cursor: pointer;
 }
 
-.header-search__icons {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header-search__icon {
     display: block;
     width: 35px;
@@ -226,10 +263,12 @@ html, body {
 
 .header-search__tag {
     background: url("../img/tags.png") center no-repeat;
+    margin-right: 5px;
 }
 
 .header-search__cart {
     background: url("../img/cart.png") center no-repeat;
+    margin-right: 15px;
 }
 
 .header-search__text {
