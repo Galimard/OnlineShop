@@ -285,21 +285,21 @@ html, body {
     height: 475px;
 }
 
-.slider-arrow__left {
+.slider-arrow__prev {
     position: absolute;
     top: 204px;
     left: 120px;
     z-index: 100;
 }
 
-.slider-arrow__right {
+.slider-arrow__next {
     position: absolute;
     top: 204px;
     right: 120px;
     z-index: 100;
 }
 
-.slider-arrow__left::after {
+.slider-arrow__prev::after {
     content: '';
     display: block;
     width: 67px;
@@ -307,7 +307,7 @@ html, body {
     background: url("../img/arrow-left-big.png") center no-repeat;
 }
 
-.slider-arrow__right::after {
+.slider-arrow__next::after {
     content: '';
     display: block;
     width: 67px;
@@ -317,11 +317,10 @@ html, body {
 
 .slider__item {
     position: relative;
-    display: none;
 }
 
-.slider__item--active {
-    display: block;
+.slide2, .slide3 {
+    display: none;
 }
 
 .slider-text__wrap {
