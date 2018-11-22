@@ -361,9 +361,18 @@ html, body {
     font-weight: 700;
 }
 
+/*content основной блок с контентом*/
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    width: 100%;
+}
+
 /*products товары*/
 .products__wrap {
-    width: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -445,8 +454,20 @@ html, body {
     height: 90px;
     background: url("../img/new.png") center no-repeat;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -2px;
+    right: -2px;
+    z-index: 10;
+}
+
+.products__item--sale::before {
+    content: '';
+    display: block;
+    width: 95px;
+    height: 90px;
+    background: url("../img/sale.png") center no-repeat;
+    position: absolute;
+    top: -2px;
+    left: -2px;
     z-index: 10;
 }
 
