@@ -365,6 +365,7 @@ html, body {
 .content {
     display: flex;
     justify-content: space-between;
+    padding-top: 45px;
 }
 
 .products {
@@ -401,6 +402,7 @@ html, body {
 }
 
 .products__heading {
+    margin: 0 0 24px;
     color:  #635f57;
     font-size: 2rem;
     font-weight: 400;
@@ -469,6 +471,66 @@ html, body {
     top: -2px;
     left: -2px;
     z-index: 10;
+}
+
+/*sidebar боковая панель*/
+.sidebar {
+    padding-left: 30px;
+}
+
+.sidebar__slider {
+    position: relative;
+    width: 240px;
+    height: 485px;
+    overflow: hidden;
+}
+
+.sidebar-slide2, .sidebar-slide3 {
+    display: none;
+}
+
+.sidebar-slider__item {
+}
+
+.sidebar-img__wrap {
+    width: 210px;
+    height: 435px;
+}
+
+.sidebar-slider__text {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    color:  #635f57;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sidebar-slider__button {
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    display: block;
+    background-color:  #4cb1ca;
+    width: 132px;
+    height: 44px;
+    color:  #ffffff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 44px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.sidebar-slider__button:hover {
+    background-color: #9ae3f4;
 }
 
 .visually-hidden:not(:focus):not(:active),
