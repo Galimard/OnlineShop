@@ -361,8 +361,8 @@ html, body {
     font-weight: 700;
 }
 
-/*content основной блок с контентом*/
-.content {
+/*main-content основной блок с контентом*/
+.main-content {
     display: flex;
     justify-content: space-between;
     padding-top: 45px;
@@ -531,6 +531,23 @@ html, body {
 
 .sidebar-slider__button:hover {
     background-color: #9ae3f4;
+}
+
+/*delivery блок доставки и звонков*/
+.delivery {
+    background: #4cb1ca;
+}
+
+.delivery__text {
+    display: inline-block;
+    color:  #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.delivery__shipping::before {
+
 }
 
 .visually-hidden:not(:focus):not(:active),
