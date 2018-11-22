@@ -361,6 +361,95 @@ html, body {
     font-weight: 700;
 }
 
+/*products товары*/
+.products__wrap {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(206, 237, 210, 0.7);
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.products__item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.products__heading {
+    color:  #635f57;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.products-img__wrap {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+}
+
+.products-item__text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.products__name {
+    margin: 0;
+    color:  #464148;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.products__price {
+    margin: 5px 0 0;
+    color:  #7db122;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.products__cart::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/css_sprites (1).png") -184px -10px no-repeat;
+}
+
+.products__cart:hover::after {
+    background: url("../img/css_sprites (1).png") -184px -80px no-repeat;
+}
+
+.products__item--new::before {
+    content: '';
+    display: block;
+    width: 95px;
+    height: 90px;
+    background: url("../img/new.png") center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type='checkbox'].visually-hidden,
 input[type='radio'].visually-hidden {
