@@ -538,16 +538,46 @@ html, body {
     background: #4cb1ca;
 }
 
+.delivery__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 ;
+}
+
+.delivery__item {
+    display: flex;
+    align-items: center;
+}
+
 .delivery__text {
-    display: inline-block;
     color:  #ffffff;
     font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.delivery__shipping::before {
+.delivery-shipping__link {
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: #ffffff url("../img/delivery.png") center no-repeat;
+    border-radius: 50%;
+    margin-right: 20px;
+}
 
+.delivery-call_link {
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: #ffffff url("../img/phone.png") center no-repeat;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.delivery__text a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5px;
 }
 
 .visually-hidden:not(:focus):not(:active),
