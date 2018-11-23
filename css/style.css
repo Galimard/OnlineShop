@@ -580,6 +580,158 @@ html, body {
     margin-left: 5px;
 }
 
+/*footer стили футера*/
+.footer-top {
+    background: #39a0b9;
+}
+
+.footer-top__content {
+    padding: 50px 0;
+    flex-wrap: nowrap;
+    align-items: normal;
+}
+
+.footer-top__item {
+    width: 21%;
+}
+
+.footer__heading {
+    margin: 0 0 30px;
+    color:  #f5f5f5;
+    font-size: 1.65rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer__text {
+    color:  #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__border {
+    display: block;
+    height: 1px;
+    background-color:  #4cb1ca;
+}
+
+/*facebook фейсбук*/
+
+.facebook__members {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.facebook__link {
+    margin: 5px 0;
+    display: block;
+    width: 50px;
+    height: 25px;
+    background: url("../img/facebook-like.png") center no-repeat;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.facebook__link:hover {
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.facebook-photo__wrap {
+    padding-top: 7px;
+}
+
+.facebook__photo {
+    display: block;
+    margin-bottom: 7px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.facebook__plugin {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*twitter твиттер*/
+.twitter__item {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.twitter__item::before {
+    content: '';
+    display: block;
+    width: 43px;
+    height: 43px;
+    background: #ffffff url("../img/twitter.png") center no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.twitter__link {
+    color:  #9ae3f4;
+    text-decoration: none;
+}
+
+.twitter__link:hover {
+    text-decoration: underline;
+}
+
+/*contact контакнты*/
+.contact__menu {
+    padding: 0;
+}
+
+.contact-menu__item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.contact-menu__link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact__socials {
+    display: flex;
+    padding-top: 20px;
+}
+
+.social__item {
+    display: block;
+    border-radius: 50%;
+    background-color:  #ffffff;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.social__item:hover {
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type='checkbox'].visually-hidden,
 input[type='radio'].visually-hidden {
