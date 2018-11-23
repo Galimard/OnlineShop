@@ -580,7 +580,7 @@ html, body {
     margin-left: 5px;
 }
 
-/*footer стили футера*/
+/*footer-top стили футера*/
 .footer-top {
     background: #39a0b9;
 }
@@ -689,11 +689,11 @@ html, body {
 }
 
 /*contact контакнты*/
-.contact__menu {
+.contact__list {
     padding: 0;
 }
 
-.contact-menu__item {
+.contact-list__item {
     list-style: none;
     margin-bottom: 10px;
 }
@@ -701,6 +701,10 @@ html, body {
 .contact-menu__link {
     color: #ffffff;
     text-decoration: none;
+}
+
+.contact-menu__link:hover {
+    text-decoration: underline;
 }
 
 .contact__socials {
@@ -730,6 +734,43 @@ html, body {
     -ms-transform: translateY(-2px);
     -o-transform: translateY(-2px);
     transform: translateY(-2px);
+}
+
+/*footer-bottom*/
+.footer-bottom {
+    background-color:  #0b4b5a;
+}
+
+.footer-bottom__text {
+    color:  #8addf0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-bottom__menu {
+    width: 45%;
+}
+
+.footer-bottom__menu-item {
+    border-right: 1px solid #8addf0;
+    padding: 0 17px 0 16px;
+}
+
+.footer-bottom__menu-item:last-child {
+    border: none;
+}
+
+.footer-bottom__link {
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.footer-bottom__link:hover {
+    color: #ffffff;
 }
 
 .visually-hidden:not(:focus):not(:active),
