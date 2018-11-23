@@ -541,12 +541,13 @@ html, body {
 .delivery__content {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 ;
 }
 
 .delivery__item {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    padding: 20px 0;
 }
 
 .delivery__text {
@@ -556,7 +557,8 @@ html, body {
     text-transform: uppercase;
 }
 
-.delivery-shipping__link {
+.delivery-shipping__img::before {
+    content: '';
     display: block;
     width: 65px;
     height: 65px;
@@ -565,7 +567,8 @@ html, body {
     margin-right: 20px;
 }
 
-.delivery-call_link {
+.delivery-call__img::before {
+    content: '';
     display: block;
     width: 65px;
     height: 65px;
