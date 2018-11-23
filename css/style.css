@@ -35,6 +35,10 @@ html, body {
     font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
+.shadow {
+    box-shadow: 0 0 16px 3px rgba(0, 0, 0, 0.5);
+}
+
 .template-width {
     max-width: 1400px;
     margin: 0 auto;
@@ -446,6 +450,13 @@ html, body {
     color:  #7db122;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.products__price--sale {
+    text-decoration: line-through;
+    color:  #464148;
+    font-size: 1.1rem;
+    padding-right: 5px;
 }
 
 .products__cart::after {
