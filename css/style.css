@@ -479,13 +479,13 @@ html, body {
 /*sidebar боковая панель*/
 .sidebar {
     /*width: 260px;*/
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .sidebar__slider {
     position: relative;
-    width: 240px;
-    height: 495px;
+    width: 227px;
+    height: 485px;
     box-shadow: 0 0 5px rgba(206, 237, 210, 0.7);
 }
 
@@ -500,8 +500,8 @@ html, body {
 }
 
 .sidebar-img__wrap {
-    width: 210px;
-    height: 435px;
+    width: 207px;
+    height: 421px;
     overflow: hidden;
 }
 
@@ -545,7 +545,7 @@ html, body {
 .sidebar__signup {
     margin-top: 30px;
     padding: 25px;
-    width: 240px;
+    width: 227px;
     box-shadow: 0 0 5px rgba(206, 237, 210, 0.7);
     border-top: 4px solid #2b9eba;
 }
