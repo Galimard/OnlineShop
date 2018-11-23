@@ -9,409 +9,411 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="header-top template-width">
-            <div class="content flex-wrap">
-                <div class="header-top__select flex-wrap">
-                    <div class="header-select__wrap flex-wrap">
-                        <span class="header-select__text">Language:</span>
-                        <select class="select header__select" name="language" title="change-language">
-                            <option>English</option>
-                            <option>Русский</option>
-                        </select>
+    <div class="template-width">
+        <header>
+            <div class="header-top ">
+                <div class="content flex-wrap">
+                    <div class="header-top__select flex-wrap">
+                        <div class="header-select__wrap flex-wrap">
+                            <span class="header-select__text">Language:</span>
+                            <select class="select header__select" name="language" title="change-language">
+                                <option>English</option>
+                                <option>Русский</option>
+                            </select>
+                        </div>
+                        <div class="header-select__wrap flex-wrap">
+                            <span class="header-select__text">Currency:</span>
+                            <select class="select header__select" name="currency" title="change-currency">
+                                <option>USD</option>
+                                <option>RUB</option>
+                                <option>EUR</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="header-select__wrap flex-wrap">
-                        <span class="header-select__text">Currency:</span>
-                        <select class="select header__select" name="currency" title="change-currency">
-                            <option>USD</option>
-                            <option>RUB</option>
-                            <option>EUR</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="header-top__menu">
-                    <ul class="menu-list">
-                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Account</a></li>
-                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Wishlist</a></li>
-                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Checkout</a></li>
-                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Log in</a></li>
-                        <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Sign up</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="header-bottom template-width">
-            <div class="content flex-wrap header-bottom__wrap">
-                <div class="logo"><a href="index.html" class="logo__link">Leo shop</a></div>
-                <div class="header-bottom__menu">
-                    <ul class="menu-list">
-                        <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Home</a></li>
-                        <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Women</a></li>
-                        <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Men</a></li>
-                        <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Other</a></li>
-                        <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Purchase</a></li>
-                    </ul>
-                </div>
-                <div class="header-bottom__search">
-                    <form action="#" class="header__form">
-                        <input type="search" title="search" class="header-form__search" placeholder="Search..">
-                        <button type="submit" class="button header-form__btn"><img src="img/search.png" alt="search"></button>
-                    </form>
-                    <div class="header-search__icons">
-                        <a href="#" class="header-search__icon header-search__tag"></a>
-                        <a href="#" class=" header-search__icon header-search__cart"></a>
-                        <span class="header-search__text">Cart (0)</span>
+                    <div class="header-top__menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Account</a></li>
+                            <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Wishlist</a></li>
+                            <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Checkout</a></li>
+                            <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Log in</a></li>
+                            <li class="menu-list__item top-menu__item"><a href="#" class="menu-list__link top-menu__link">Sign up</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="slider template-width">
-            <a href="#" class="slider__arrow slider-arrow__prev"></a>
-            <div class="slider__item slide1">
-                <img src="img/slider1.jpg" alt="photo">
-                <div class="slider-text__wrap">
-                    <p class="slider-item__text">Aluminum club</p>
-                    <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
-                </div>
-            </div>
-            <div class="slider__item slide2">
-                <img src="img/slider1.jpg" alt="photo">
-                <div class="slider-text__wrap">
-                    <p class="slider-item__text">Aluminum club</p>
-                    <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
-                </div>
-            </div>
-            <div class="slider__item slide3">
-                <img src="img/slider1.jpg" alt="photo">
-                <div class="slider-text__wrap">
-                    <p class="slider-item__text">Aluminum club</p>
-                    <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
-                </div>
-            </div>
-            <a href="#" class="slider__arrow slider-arrow__next"></a>
-        </div>
-        <div class="main-content content">
-            <div class="products">
-                <h1 class="visually-hidden">LeoShop</h1>
-                <div class="products__row">
-                    <h3 class="products__heading">Featured products</h3>
-                    <div class="products__wrap">
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo1.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item">
-                            <div class="products-img__wrap">
-                                <img src="img/photo2.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--sale">
-                            <div class="products-img__wrap">
-                                <img src="img/photo3.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price"><span class="products__price--sale">$460</span>$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item">
-                            <div class="products-img__wrap">
-                                <img src="img/photo4.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo5.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item">
-                            <div class="products-img__wrap">
-                                <img src="img/photo6.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo7.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--sale">
-                            <div class="products-img__wrap">
-                                <img src="img/photo8.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price"><span class="products__price--sale">$460</span>$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo9.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
+            <div class="header-bottom ">
+                <div class="content flex-wrap header-bottom__wrap">
+                    <div class="logo"><a href="index.html" class="logo__link">Leo shop</a></div>
+                    <div class="header-bottom__menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Home</a></li>
+                            <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Women</a></li>
+                            <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Men</a></li>
+                            <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Other</a></li>
+                            <li class="menu-list__item bottom-menu__item"><a href="#" class="menu-list__link bottom-menu__link">Purchase</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="products__row">
-                    <h3 class="products__heading">Staff Pick</h3>
-                    <div class="products__wrap">
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo7.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item">
-                            <div class="products-img__wrap">
-                                <img src="img/photo8.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo9.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products__row">
-                    <h3 class="products__heading"   >New products</h3>
-                    <div class="products__wrap">
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo4.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo5.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
-                        </div>
-                        <div class="products__item products__item--new">
-                            <div class="products-img__wrap">
-                                <img src="img/photo6.jpg" alt="photo">
-                            </div>
-                            <a href="#" class="products-item__text">
-                                <div class="products-text__wrap">
-                                    <p class="products__name">Lorem ipsum dolor.</p>
-                                    <p class="products__price">$388.00</p>
-                                </div>
-                                <span class="products__cart"></span>
-                            </a>
+                    <div class="header-bottom__search">
+                        <form action="#" class="header__form">
+                            <input type="search" title="search" class="header-form__search" placeholder="Search..">
+                            <button type="submit" class="button header-form__btn"><img src="img/search.png" alt="search"></button>
+                        </form>
+                        <div class="header-search__icons">
+                            <a href="#" class="header-search__icon header-search__tag"></a>
+                            <a href="#" class=" header-search__icon header-search__cart"></a>
+                            <span class="header-search__text">Cart (0)</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="sidebar">
-                <div class="sidebar__slider">
-                    <div class="sidebar-slider__item sidebar-slide1">
-                        <div class="sidebar-slider__slide-wrap">
-                            <div class="sidebar-img__wrap">
-                                <img src="img/photo.jpg" alt="slide">
+        </header>
+        <main>
+            <div class="slider">
+                <a href="#" class="slider__arrow slider-arrow__prev"></a>
+                <div class="slider__item slide1">
+                    <img src="img/slider1.jpg" alt="photo">
+                    <div class="slider-text__wrap">
+                        <p class="slider-item__text">Aluminum club</p>
+                        <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
+                    </div>
+                </div>
+                <div class="slider__item slide2">
+                    <img src="img/slider1.jpg" alt="photo">
+                    <div class="slider-text__wrap">
+                        <p class="slider-item__text">Aluminum club</p>
+                        <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
+                    </div>
+                </div>
+                <div class="slider__item slide3">
+                    <img src="img/slider1.jpg" alt="photo">
+                    <div class="slider-text__wrap">
+                        <p class="slider-item__text">Aluminum club</p>
+                        <p class="slider-item__text slider-item__text-bold">Experience ray-ban</p>
+                    </div>
+                </div>
+                <a href="#" class="slider__arrow slider-arrow__next"></a>
+            </div>
+            <div class="main-content content">
+                <div class="products">
+                    <h1 class="visually-hidden">LeoShop</h1>
+                    <div class="products__row">
+                        <h3 class="products__heading">Featured products</h3>
+                        <div class="products__wrap">
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo1.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
                             </div>
-                            <h3 class="sidebar-slider__text">Featured<br>glass</h3>
-                            <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
-                        </div>
-                        <div class="sidebar-slider__dots">...</div>
-                    </div>
-                    <div class="sidebar-slider__item sidebar-slide2">
-                        <div class="sidebar-slider__slide-wrap">
-                            <div class="sidebar-img__wrap">
-                                <img src="img/photo13.jpg" alt="slide">
+                            <div class="products__item">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo2.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
                             </div>
-                            <h3 class="sidebar-slider__text">Featured<br>glass</h3>
-                            <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
-                        </div>
-                        <div class="sidebar-slider__dots">...</div>
-                    </div>
-                    <div class="sidebar-slider__item sidebar-slide3">
-                        <div class="sidebar-slider__slide-wrap">
-                            <div class="sidebar-img__wrap">
-                                <img src="img/photo13.jpg" alt="slide">
+                            <div class="products__item products__item--sale">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo3.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price"><span class="products__price--sale">$460</span>$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
                             </div>
-                            <h3 class="sidebar-slider__text">Featured<br>glass</h3>
-                            <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
+                            <div class="products__item">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo4.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo5.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo6.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo7.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--sale">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo8.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price"><span class="products__price--sale">$460</span>$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo9.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="sidebar-slider__dots">...</div>
+                    </div>
+                    <div class="products__row">
+                        <h3 class="products__heading">Staff Pick</h3>
+                        <div class="products__wrap">
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo7.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo8.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo9.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__row">
+                        <h3 class="products__heading"   >New products</h3>
+                        <div class="products__wrap">
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo4.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo5.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                            <div class="products__item products__item--new">
+                                <div class="products-img__wrap">
+                                    <img src="img/photo6.jpg" alt="photo">
+                                </div>
+                                <a href="#" class="products-item__text">
+                                    <div class="products-text__wrap">
+                                        <p class="products__name">Lorem ipsum dolor.</p>
+                                        <p class="products__price">$388.00</p>
+                                    </div>
+                                    <span class="products__cart"></span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="sidebar__signup">
-                    <h3 class="sidebar-signup__heading">Newsletters signup</h3>
-                    <p class="sidebar-signup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <span class="sidebar__border"></span>
-                    <form action="#" class="signup__form">
-                        <input type="email" title="subscribe" class="signup__input">
-                        <button type="submit" class="signup__button">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="delivery template-width">
-            <div class="content delivery__content">
-                <a href="#" class="delivery__item delivery-shipping__link">
-                    <span class="delivery-shipping__img"></span>
-                    <span class="delivery__text ">free shipping on&nbsp;orders over $100</span>
-                </a>
-                <a href="#" class="delivery__item delivery-call__link">
-                    <span class="delivery-call__img"></span>
-                    <span class="delivery__text">Call&nbsp;us! Tel free 409-8888-0099</span>
-                </a>
-            </div>
-        </div>
-    </main>
-    <footer class="template-width">
-        <div class="footer-top">
-            <div class="content flex-wrap footer-top__content">
-                <div class="footer-top__facebook footer-top__item">
-                    <h4 class="footer__heading">facebook</h4>
-                    <span class="footer__text facebook__members">20000 members</span>
-                    <a href="#" class="facebook__link"></a>
-                    <span class="footer__border"></span>
-                    <div class="facebook-photo__wrap flex-wrap">
-                        <a href="#" class="facebook__photo"><img src="img/photo16.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo17.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo14.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo15.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo20.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo21.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo18.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo19.jpg" alt="photo"></a>
+                <div class="sidebar">
+                    <div class="sidebar__slider">
+                        <div class="sidebar-slider__item sidebar-slide1">
+                            <div class="sidebar-slider__slide-wrap">
+                                <div class="sidebar-img__wrap">
+                                    <img src="img/photo.jpg" alt="slide">
+                                </div>
+                                <h3 class="sidebar-slider__text">Featured<br>glass</h3>
+                                <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
+                            </div>
+                            <div class="sidebar-slider__dots">...</div>
+                        </div>
+                        <div class="sidebar-slider__item sidebar-slide2">
+                            <div class="sidebar-slider__slide-wrap">
+                                <div class="sidebar-img__wrap">
+                                    <img src="img/photo13.jpg" alt="slide">
+                                </div>
+                                <h3 class="sidebar-slider__text">Featured<br>glass</h3>
+                                <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
+                            </div>
+                            <div class="sidebar-slider__dots">...</div>
+                        </div>
+                        <div class="sidebar-slider__item sidebar-slide3">
+                            <div class="sidebar-slider__slide-wrap">
+                                <div class="sidebar-img__wrap">
+                                    <img src="img/photo13.jpg" alt="slide">
+                                </div>
+                                <h3 class="sidebar-slider__text">Featured<br>glass</h3>
+                                <a href="#" class="sidebar-slider__button">Check it&nbsp;Out</a>
+                            </div>
+                            <div class="sidebar-slider__dots">...</div>
+                        </div>
                     </div>
-                    <span class="footer__border"></span>
-                    <span class="footer__text facebook__plugin">facebook Social plugin</span>
-                </div>
-                <div class="footer-top__twitter footer-top__item">
-                    <h4 class="footer__heading">From twitter</h4>
-                    <div class="twitter__wrap">
-                        <div class="twitter__item footer__text">Lorem ipsum dolor sit amet, elit. Atque ducimus <a href="#" class="twitter__link">error fuga iste, mollitia quaerat</a> sapiente similique?</div>
-                        <div class="twitter__item footer__text">Lorem ipsum dolor sit amet, elit. Atque ducimus <a href="#" class="twitter__link">error fuga iste, mollitia quaerat</a> sapiente similique?</div>
-                    </div>
-                </div>
-                <div class="footer-top__information footer-top__item">
-                    <h4 class="footer__heading">Information</h4>
-                    <ul>
-                        <li><a href="#" class="footer__text">Lorem ipsum dolor</a></li>
-                        <li><a href="#" class="footer__text">sit amet, consectetur</a></li>
-                        <li><a href="#" class="footer__text">adipisicing elit</a></li>
-                        <li><a href="#" class="footer__text">Adipisci distinctio magni</a></li>
-                        <li><a href="#" class="footer__text">recusandae repudiandae</a></li>
-                        <li><a href="#" class="footer__text">sequi totam?</a></li>
-                    </ul>
-                </div>
-                <div class="footer-top__contact footer-top__item">
-                    <h4 class="footer__heading">Contact&nbsp;us</h4>
-                    <ul class="contact__list">
-                        <li class="footer__text contact-list__item">Leo Store</li>
-                        <li class="footer__text contact-list__item">Leopards media</li>
-                        <li class="footer__text contact-list__item">KVM&nbsp;Rpad, 4590GH</li>
-                        <li class="footer__text contact-list__item"><a href="#" class="contact-menu__link">+1 489-8888-0099</a></li>
-                        <li class="footer__text contact-list__item"><a href="#" class="contact-menu__link">mail@email.com</a></li>
-                    </ul>
-                    <span class="footer__border"></span>
-                    <div class="contact__socials">
-                        <a href="#" class="social__item"><img src="img/google.png" alt="google"></a><a href="#" class="social__item"><img src="img/in.png" alt="in"></a><a href="#" class="social__item"><img src="img/rss.png" alt="rss"></a><a href="#" class="social__item"><img src="img/facebook.png" alt="facebook"></a>
+                    <div class="sidebar__signup">
+                        <h3 class="sidebar-signup__heading">Newsletters signup</h3>
+                        <p class="sidebar-signup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <span class="sidebar__border"></span>
+                        <form action="#" class="signup__form">
+                            <input type="email" title="subscribe" class="signup__input">
+                            <button type="submit" class="signup__button">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="content flex-wrap">
-                <div class="footer-bottom__col footer-bottom__text">
-                    &copy;&nbsp;Copyright 2018 Css Author, All Rights Reserved.
-                </div>
-                <div class="footer-bottom__col footer-bottom__menu">
-                    <ul class="menu-list">
-                        <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">About&nbsp;us</a></li>
-                        <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Delivery &amp;&nbsp;Returns</a></li>
-                        <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Terms &amp;&nbsp;Conditions</a></li>
-                        <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Contact&nbsp;us</a></li>
-                    </ul>
+            <div class="delivery">
+                <div class="content delivery__content">
+                    <a href="#" class="delivery__item delivery-shipping__link">
+                        <span class="delivery-shipping__img"></span>
+                        <span class="delivery__text ">free shipping on&nbsp;orders over $100</span>
+                    </a>
+                    <a href="#" class="delivery__item delivery-call__link">
+                        <span class="delivery-call__img"></span>
+                        <span class="delivery__text">Call&nbsp;us! Tel free 409-8888-0099</span>
+                    </a>
                 </div>
             </div>
-        </div>
-    </footer>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="content flex-wrap footer-top__content">
+                    <div class="footer-top__facebook footer-top__item">
+                        <h4 class="footer__heading">facebook</h4>
+                        <span class="footer__text facebook__members">20000 members</span>
+                        <a href="#" class="facebook__link"></a>
+                        <span class="footer__border"></span>
+                        <div class="facebook-photo__wrap flex-wrap">
+                            <a href="#" class="facebook__photo"><img src="img/photo16.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo17.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo14.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo15.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo20.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo21.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo18.jpg" alt="photo"></a><a href="#" class="facebook__photo"><img src="img/photo19.jpg" alt="photo"></a>
+                        </div>
+                        <span class="footer__border"></span>
+                        <span class="footer__text facebook__plugin">facebook Social plugin</span>
+                    </div>
+                    <div class="footer-top__twitter footer-top__item">
+                        <h4 class="footer__heading">From twitter</h4>
+                        <div class="twitter__wrap">
+                            <div class="twitter__item footer__text">Lorem ipsum dolor sit amet, elit. Atque ducimus <a href="#" class="twitter__link">error fuga iste, mollitia quaerat</a> sapiente similique?</div>
+                            <div class="twitter__item footer__text">Lorem ipsum dolor sit amet, elit. Atque ducimus <a href="#" class="twitter__link">error fuga iste, mollitia quaerat</a> sapiente similique?</div>
+                        </div>
+                    </div>
+                    <div class="footer-top__information footer-top__item">
+                        <h4 class="footer__heading">Information</h4>
+                        <ul>
+                            <li><a href="#" class="footer__text">Lorem ipsum dolor</a></li>
+                            <li><a href="#" class="footer__text">sit amet, consectetur</a></li>
+                            <li><a href="#" class="footer__text">adipisicing elit</a></li>
+                            <li><a href="#" class="footer__text">Adipisci distinctio magni</a></li>
+                            <li><a href="#" class="footer__text">recusandae repudiandae</a></li>
+                            <li><a href="#" class="footer__text">sequi totam?</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__contact footer-top__item">
+                        <h4 class="footer__heading">Contact&nbsp;us</h4>
+                        <ul class="contact__list">
+                            <li class="footer__text contact-list__item">Leo Store</li>
+                            <li class="footer__text contact-list__item">Leopards media</li>
+                            <li class="footer__text contact-list__item">KVM&nbsp;Rpad, 4590GH</li>
+                            <li class="footer__text contact-list__item"><a href="#" class="contact-menu__link">+1 489-8888-0099</a></li>
+                            <li class="footer__text contact-list__item"><a href="#" class="contact-menu__link">mail@email.com</a></li>
+                        </ul>
+                        <span class="footer__border"></span>
+                        <div class="contact__socials">
+                            <a href="#" class="social__item"><img src="img/google.png" alt="google"></a><a href="#" class="social__item"><img src="img/in.png" alt="in"></a><a href="#" class="social__item"><img src="img/rss.png" alt="rss"></a><a href="#" class="social__item"><img src="img/facebook.png" alt="facebook"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="content flex-wrap">
+                    <div class="footer-bottom__col footer-bottom__text">
+                        &copy;&nbsp;Copyright 2018 Css Author, All Rights Reserved.
+                    </div>
+                    <div class="footer-bottom__col footer-bottom__menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">About&nbsp;us</a></li>
+                            <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Delivery &amp;&nbsp;Returns</a></li>
+                            <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Terms &amp;&nbsp;Conditions</a></li>
+                            <li class="menu-list__item footer-bottom__menu-item"><a href="#" class="footer-bottom__text footer-bottom__link">Contact&nbsp;us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="plugins/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
