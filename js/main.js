@@ -11,12 +11,12 @@ $(document).ready(function() {
     }
 
     //слайдер в сайдбаре
-    if($('.sidebar__slider')) {
-        $('.sidebar__slider').slick({
-            // infinite: true,
-            // dots: true,
-            // autoplay: true,
-            // autoplaySpeed: 5000
-    }
+    // if($('.sidebar__slider')) {
+    //     $('.sidebar__slider').slick({
+    //         // infinite: true,
+    //         // dots: true,
+    //         // autoplay: true,
+    //         // autoplaySpeed: 5000
+    // }
 });
 

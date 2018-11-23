@@ -376,7 +376,7 @@ html, body {
 .main-content {
     display: flex;
     justify-content: space-between;
-    padding-top: 45px;
+    padding: 45px 0 50px;
 }
 
 .products {
