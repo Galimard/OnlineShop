@@ -750,7 +750,55 @@ html, body {
     margin-top: 10px;
 }
 
-/*twitter твиттер*/
+/*information информация*/
+.accordion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.accordion__item {
+    margin-bottom: 5px;
+}
+
+.accordion__input {
+    display: none;
+}
+
+.accordion__label {
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.accordion-item__menu {
+    padding: 0;
+    margin-top: 5px;
+    overflow: hidden;
+    max-height: 0;
+    position: relative;
+    z-index: 10;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+    -ms-transition: max-height 0.3s;
+    -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+}
+
+.accordion__input:checked ~ .accordion-item__menu{
+    max-height: 100px;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+    -ms-transition: max-height 0.3s;
+    -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+}
+
+.accordion-item__menu-item {
+    padding: 5px;
+    list-style: none;
+}
+
+    /*twitter твиттер*/
 .twitter__item {
     padding-left: 60px;
     position: relative;
@@ -778,7 +826,7 @@ html, body {
     text-decoration: underline;
 }
 
-/*contact контакнты*/
+/*contact контакты*/
 .contact__list {
     padding: 0;
 }
