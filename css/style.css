@@ -780,6 +780,22 @@ html, body {
     margin-bottom: 5px;
 }
 
+.accordion__item::before {
+    content: '';
+    display: block;
+    background: url("../img/arrow-down.png") center no-repeat;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
 .accordion__input {
     display: none;
 }
@@ -791,7 +807,7 @@ html, body {
 }
 
 .accordion-item__menu {
-    padding: 0;
+    padding-left: 15px;
     margin-top: 5px;
     overflow: hidden;
     max-height: 0;
@@ -804,7 +820,8 @@ html, body {
     transition: max-height 0.3s;
 }
 
-.accordion__input:checked ~ .accordion-item__menu{
+.accordion__input:checked ~ .accordion-item__menu {
+    border-top: 1px solid #4cb1ca;
     max-height: 100px;
     -webkit-transition: max-height 0.3s;
     -moz-transition: max-height 0.3s;
@@ -813,7 +830,16 @@ html, body {
     transition: max-height 0.3s;
 }
 
+.accordion__input:checked .accordion__item::before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .accordion-item__menu-item {
+    text-transform: capitalize;
     padding: 5px;
     list-style: none;
 }

@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    //select смена языка
+    $('.header__select').styler();
+
     //слайдер большой
     if($('.slider')) {
         $('.slider').slick({
