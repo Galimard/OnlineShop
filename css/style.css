@@ -265,8 +265,8 @@ html, body {
 
 .header-search__icon {
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 36px;
+    height: 36px;
 }
 
 .header-search__tag {
@@ -303,15 +303,15 @@ html, body {
 
 .slider-arrow__prev {
     position: absolute;
-    top: 204px;
-    left: 120px;
+    top: 44%;
+    left: 10%;
     z-index: 100;
 }
 
 .slider-arrow__next {
     position: absolute;
-    top: 204px;
-    right: 120px;
+    top: 44%;
+    right: 10%;
     z-index: 100;
 }
 
@@ -354,8 +354,10 @@ html, body {
 
 .slider-text__wrap {
     position: absolute;
-    top: 190px;
-    left: 235px;
+    top: 40%;
+    left: 17%;
+    /*top: 190px;*/
+    /*left: 235px;*/
 }
 
 .slider-item__text {
@@ -363,7 +365,7 @@ html, body {
     padding: 8px 12px;
     background: rgba(0, 0, 0, 0.5);
     color:  #ffffff;
-    font-size: 28px;
+    font-size: 2.3rem;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -401,7 +403,7 @@ html, body {
     margin-bottom: 25px;
     padding: 9px;
     width: 30%;
-    height: 300px;
+    height: auto;
     box-shadow: 0 0 5px rgba(206, 237, 210, 0.7);
     -webkit-transition: transform 0.3s;
     -moz-transition: transform 0.3s;
@@ -429,8 +431,12 @@ html, body {
 .products-img__wrap {
     position: relative;
     max-width: 210px;
-    height: 210px;
+    max-height: 210px;
     overflow: hidden;
+}
+
+.products-img__wrap img {
+    max-width: 100%;
 }
 
 .products-item__text {
@@ -1029,7 +1035,36 @@ input[type='radio'].visually-hidden {
 }
 
 @media all and (max-width: 900px) {
-    
+    .header-bottom__wrap {
+        display: block;
+        padding: 20px 15px;
+    }
+
+    .header-bottom__menu {
+        margin-left: 0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .header-bottom-menu__list {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .main-content,
+    .footer-top__content {
+        padding: 30px 15px;
+    }
+
+    .delivery-shipping__link {
+        margin-right: 0;
+    }
+
+    .social__item:last-child {
+        margin-right: 0;
+    }
 }
 
 @media all and (max-width: 640px) {
