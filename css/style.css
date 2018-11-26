@@ -67,6 +67,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    margin: 0;
 }
 
 .menu-list__item {
@@ -86,13 +87,14 @@ html, body {
 /*header-top, стили для хедера*/
 .header-top {
     background-color: #4cb1ca;
+    padding: 15px 0;
 }
 
 .header-select__text {
     color:  #bef3ff;
     font-size: 1rem;
     font-weight: 400;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .header__select {
@@ -100,6 +102,10 @@ html, body {
     color:  #ffffff;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.header-select__wrap {
+    margin-right: 30px;
 }
 
 /*.header__select::after {*/
@@ -110,8 +116,12 @@ html, body {
     /*background: url("../img/arrow-down.png") center no-repeat;*/
 /*}*/
 
+.header-top__menu {
+    width: 365px;
+}
+
 .top-menu__item {
-    padding: 0 10px;
+    padding: 0 15px;
     border-right: 1px solid #ffffff;
 }
 
@@ -136,7 +146,7 @@ html, body {
 
 /*header-bottom, стили для хедера*/
 .header-bottom__wrap {
-    padding: 40px 0;
+    padding: 33px 0;
 }
 
 .logo__link {
@@ -145,6 +155,11 @@ html, body {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.header-bottom__menu {
+    margin-left: -70px;
 }
 
 .bottom-menu__item {
@@ -362,8 +377,9 @@ html, body {
 }
 
 .slider-item__text:first-child {
-    max-width: 250px;
+    max-width: 265px;
     margin-bottom: 2px;
+    letter-spacing: 1px;
 }
 
 .slider-item__text-bold {
@@ -377,7 +393,7 @@ html, body {
 .main-content {
     display: flex;
     justify-content: space-between;
-    padding: 45px 0 50px;
+    padding: 44px 0 50px;
 }
 
 .products {
@@ -414,7 +430,7 @@ html, body {
 }
 
 .products__heading {
-    margin: 0 0 24px;
+    margin: 0 0 16px;
     color:  #635f57;
     font-size: 2rem;
     font-weight: 400;
@@ -522,8 +538,9 @@ html, body {
 }
 
 .sidebar-slider__text {
+    margin: 0;
     position: absolute;
-    top: 25px;
+    top: 28px;
     left: 60px;
     color:  #635f57;
     font-size: 2rem;
@@ -534,8 +551,8 @@ html, body {
 
 .sidebar-slider__button {
     position: absolute;
-    top: 370px;
-    left: 50px;
+    top: 375px;
+    left: 45px;
     display: block;
     background-color:  #4cb1ca;
     width: 132px;
@@ -559,15 +576,15 @@ html, body {
 
 /*signup форма подписки*/
 .sidebar__signup {
-    margin-top: 30px;
-    padding: 25px;
+    margin-top: 34px;
+    padding: 22px;
     width: 227px;
     box-shadow: 0 0 5px rgba(206, 237, 210, 0.7);
     border-top: 4px solid #2b9eba;
 }
 
 .sidebar-signup__heading {
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     color:  #635f57;
     font-size: 2rem;
     font-weight: 400;
@@ -584,7 +601,7 @@ html, body {
 }
 
 .sidebar__border {
-    margin: 10px auto 15px;
+    margin: 13px auto 15px;
     display: block;
     height: 1px;
     width: 85px;
@@ -600,7 +617,7 @@ html, body {
     width: 100%;
     color: #ffffff;
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     outline: none;
 }
 
@@ -622,7 +639,6 @@ html, body {
 
 .delivery__content {
     display: flex;
-    justify-content: space-between;
 }
 
 .delivery__item {
@@ -630,6 +646,10 @@ html, body {
     align-items: center;
     text-decoration: none;
     padding: 20px 0;
+}
+
+.delivery-shipping__link {
+    margin-right: 85px;
 }
 
 .delivery__text {
@@ -676,7 +696,7 @@ html, body {
 }
 
 .footer-top__content {
-    padding: 50px 0;
+    padding: 46px 0 44px;
     flex-wrap: nowrap;
     align-items: normal;
 }
@@ -686,7 +706,7 @@ html, body {
 }
 
 .footer__heading {
-    margin: 0 0 30px;
+    margin: 0 0 28px;
     color:  #f5f5f5;
     font-size: 1.65rem;
     font-weight: 400;
@@ -877,6 +897,7 @@ html, body {
 /*footer-bottom*/
 .footer-bottom {
     background-color:  #0b4b5a;
+    padding: 23px 0;
 }
 
 .footer-bottom__text {
