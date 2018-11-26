@@ -10,6 +10,14 @@ $(document).ready(function() {
             arrows: true,
             prevArrow: '<a href="#" class="slider__arrow slider-arrow__prev"></a>',
             nextArrow: '<a href="#" class="slider__arrow slider-arrow__next"></a>',
+            responsive: [
+                {
+                    breakpoint: 640,
+                    settings: {
+                        arrows: false
+                    }
+                }
+            ]
         });
     }
 
