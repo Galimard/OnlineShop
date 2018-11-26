@@ -108,14 +108,6 @@ html, body {
     margin-right: 30px;
 }
 
-/*.header__select::after {*/
-    /*content: "";*/
-    /*display: block;*/
-    /*width: 10px;*/
-    /*height: 6px;*/
-    /*background: url("../img/arrow-down.png") center no-repeat;*/
-/*}*/
-
 .header-top__menu {
     width: 365px;
 }
