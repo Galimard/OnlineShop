@@ -405,8 +405,6 @@ html, body {
     position: absolute;
     top: 40%;
     left: 17%;
-    /*top: 190px;*/
-    /*left: 235px;*/
 }
 
 .slider-item__text {
@@ -580,7 +578,6 @@ html, body {
 }
 
 .sidebar__slider {
-    position: relative;
     width: 227px;
     height: 445px;
     box-shadow: 0 0 4px rgba(206, 237, 210, 0.7);
@@ -599,6 +596,7 @@ html, body {
 }
 
 .sidebar-slider__item {
+    position: relative;
     padding: 10px;
     box-shadow: 0 2px 2px -1px rgba(206, 237, 210, 0.7);
     border-top: 4px solid #2b9eba;
@@ -621,7 +619,7 @@ html, body {
     margin: 0;
     position: absolute;
     top: 28px;
-    left: 285px;
+    left: 58px;
     color:  #635f57;
     font-size: 2rem;
     font-weight: 400;
@@ -632,7 +630,7 @@ html, body {
 .sidebar-slider__button {
     position: absolute;
     top: 375px;
-    left: 275px;
+    left: 48px;
     display: block;
     background-color:  #4cb1ca;
     width: 132px;

@@ -28,7 +28,7 @@ $(document).ready(function() {
             appendDots: $('.sidebar-slider__dots'),
             infinite: true,
             dots: true,
-            // autoplay: true,
+            autoplay: true,
             autoplaySpeed: 3000
     });
     }
