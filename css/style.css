@@ -734,6 +734,7 @@ html, body {
     align-items: center;
     text-decoration: none;
     padding: 20px 0;
+    width: 50%;
 }
 
 .delivery-shipping__link {
@@ -749,7 +750,7 @@ html, body {
 
 .delivery-shipping__img {
     position: relative;
-    width: 65px;
+    min-width: 65px;
     height: 65px;
     background: url("../img/css_sprites(1).png") -184px -10px no-repeat;
     margin-right: 20px;
@@ -758,7 +759,7 @@ html, body {
 .delivery-shipping__img::before {
     content: '';
     display: block;
-    width: 65px;
+    min-width: 65px;
     height: 65px;
     background: url("../img/css_sprites(1).png") -184px -95px no-repeat;
     opacity: 0;
@@ -782,7 +783,7 @@ html, body {
 
 .delivery-call__img {
     position: relative;
-    width: 65px;
+    min-width: 65px;
     height: 65px;
     background: url("../img/css_sprites(1).png") -10px -184px no-repeat;
     margin-right: 20px;
@@ -791,7 +792,7 @@ html, body {
 .delivery-call__img::before {
     content: '';
     display: block;
-    width: 65px;
+    min-width: 65px;
     height: 65px;
     background: url("../img/css_sprites(1).png") -95px -184px no-repeat;
     opacity: 0;
@@ -911,6 +912,7 @@ html, body {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: left;
 }
 .accordion__item {
     margin-bottom: 5px;
@@ -1421,7 +1423,7 @@ input[type='radio'].visually-hidden {
     }
 
     .accordion__item {
-        width: 50%;
+        width: 57%;
         margin: 0 auto 5px;
     }
 
