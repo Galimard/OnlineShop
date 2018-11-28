@@ -962,16 +962,19 @@ html, body {
     position: absolute;
     top: 3px;
     left: 0;
-    -webkit-transition: transform 0.3s;
-    -moz-transition: transform 0.3s;
-    -ms-transition: transform 0.3s;
-    -o-transition: transform 0.3s;
-    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s, background 0.3s;
+    -moz-transition: transform 0.3s, background 0.3s;
+    -ms-transition: transform 0.3s, background 0.3s;
+    -o-transition: transform 0.3s, background 0.3s;
+    transition: transform 0.3s, background 0.3s;
 }
 
+.accordion__label:hover::before {
+    background: url("../img/arrow-down2.png") center no-repeat;
+}
 
-.accordion__label:hover::before,
 .accordion__input:checked + .accordion__label::before {
+    /*background: url("../img/arrow-down2.png") center no-repeat;*/
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
